@@ -1,0 +1,11 @@
+<body style="background-color:rgba(173, 189, 211, 0.877);"></body>
+<h1>book list</h1>
+<ul>
+    <select>
+  {% for i in bookname %}
+    <li>
+     <option>{{ i.Book_name}}</option>
+    </li>
+  {% endfor %}
+</select>
+</ul>

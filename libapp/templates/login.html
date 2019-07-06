@@ -1,0 +1,18 @@
+<section class="loginform cf">
+
+
+    <body style="background-color:rgba(173, 189, 211, 0.877);"></body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <center>
+                    <h1>LOGIN</h1>
+                    <form method='POST'>
+                        {% csrf_token %} {{form.as_p}}
+                        <input type='submit' value='login'>
+                    </form>
+                </center>
+            </div>
+        </div>
+    </div>
+</section>
